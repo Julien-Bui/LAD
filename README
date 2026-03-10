@@ -17,4 +17,4 @@ Rust 1.80 or newer.
 2. Setup
 
 cd log-guardian-rs
-cargo run --example kmeans_example
+cargo run
