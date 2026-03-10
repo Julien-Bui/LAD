@@ -1,0 +1,14 @@
+# Dossier de compilation Rust (générations Cargo)
+/target/
+
+# Cargo.lock (dépend de votre usage : si c'est un exécutable (ce qui est le cas), vous pouvez l'enlever d'ici pour le commiter. Mais par défaut on ignore souvent)
+# Cargo.lock
+
+# Fichiers de test et scripts de génération locaux
+access.log
+generate_logs.sh
+
+# Configurations de l'éditeur (VS Code, IntelliJ, etc)
+.vscode/
+.idea/
+*.rs.bk

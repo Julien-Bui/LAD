@@ -1,1 +1,20 @@
-This is the beginning
+🔍 LAD: Log Anomaly Detector
+LAD is a lightweight, high-performance security tool written in Rust. It uses Unsupervised Machine Learning to parse server logs and automatically detect suspicious behavior without any pre-defined rules.
+
+🚀 Technical Features
+Zero-Copy Parsing: Uses Rust's memory safety to scan logs at near-native speeds.
+
+K-Means Intelligence: Automatically groups traffic into "Normal" and "Suspicious" clusters using the linfa ML framework.
+
+Resource Efficient: Designed to run on low-resource VMs or edge servers with minimal CPU/RAM impact.
+
+Type-Safe Data: Every log line is validated and transformed into a structured format before analysis.
+
+🛠️ Installation & Usage
+1. Requirements
+Rust 1.80 or newer.
+
+2. Setup
+
+cd log-guardian-rs
+cargo run --example kmeans_example

@@ -1,0 +1,14 @@
+/target/
+
+Cargo.lock
+
+access.log
+*.log
+
+.vscode/
+.idea/
+.DS_Store
+
+*.rs.bk
+*.swp
+

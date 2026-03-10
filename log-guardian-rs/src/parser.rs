@@ -2,7 +2,7 @@ use regex::Regex;
 use std::fs::File;
 use std::io::{BufRead, BufReader};
 use anyhow::Result;
-use crate::models::LogEntry; // On importe la structure du fichier models
+use crate::models::LogEntry;
 
 pub fn parse_log_file(path: &str) -> Result<Vec<LogEntry>> 
 {
